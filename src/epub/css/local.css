@@ -9,12 +9,17 @@
 	text-indent: 0;
 }
 
-[epub|type~="bridgehead"] i{
-	font-style: normal;
-}
-
 #bibliographical-note p:last-child{
 	font-variant: small-caps;
 	margin-top: 1em;
 	text-align: right;
+}
+
+[epub|type~="conclusion"] p{
+	font-style: italic;
+	margin-top: 1em;
+}
+
+dd + dt{
+	margin-top: 1.5em;
 }
