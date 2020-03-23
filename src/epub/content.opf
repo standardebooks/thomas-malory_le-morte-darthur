@@ -27,8 +27,8 @@
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.1 Level AA.</meta>
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
-		<dc:title id="title">Le Morte D'Arthur</dc:title>
-		<meta property="file-as" refines="#title">Le Morte D'Arthur</meta>
+		<dc:title id="title">Le Morte D’Arthur</dc:title>
+		<meta property="file-as" refines="#title">Le Morte D’Arthur</meta>
 		<dc:subject id="subject-1">Arthurian romances</dc:subject>
 		<dc:subject id="subject-2">Arthur, King -- Legends</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
@@ -341,6 +341,7 @@
 		<item href="text/chapter-9-41.xhtml" id="chapter-9-41.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-9-42.xhtml" id="chapter-9-42.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-9-43.xhtml" id="chapter-9-43.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-9-44.xhtml" id="chapter-9-44.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-10-1.xhtml" id="chapter-10-1.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-10-2.xhtml" id="chapter-10-2.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-10-3.xhtml" id="chapter-10-3.xhtml" media-type="application/xhtml+xml"/>
@@ -607,6 +608,7 @@
 		<item href="text/chapter-21-12.xhtml" id="chapter-21-12.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-21-13.xhtml" id="chapter-21-13.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/glossary.xhtml" id="glossary.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/halftitle.xhtml" id="halftitle.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
@@ -867,6 +869,7 @@
 		<itemref idref="chapter-9-41.xhtml"/>
 		<itemref idref="chapter-9-42.xhtml"/>
 		<itemref idref="chapter-9-43.xhtml"/>
+		<itemref idref="chapter-9-44.xhtml"/>
 		<itemref idref="book-10.xhtml"/>
 		<itemref idref="chapter-10-1.xhtml"/>
 		<itemref idref="chapter-10-2.xhtml"/>
@@ -1144,6 +1147,7 @@
 		<itemref idref="chapter-21-11.xhtml"/>
 		<itemref idref="chapter-21-12.xhtml"/>
 		<itemref idref="chapter-21-13.xhtml"/>
+		<itemref idref="endnotes.xhtml"/>
 		<itemref idref="glossary.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
