@@ -36,14 +36,14 @@
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">Unknown</meta>
 		<meta property="se:subject">Fiction</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">A late Middle Ages version of the story of King Arthur and the Knights of the Round Table.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description"> LONG_DESCRIPTION </meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/1251</dc:source>
 		<dc:source>https://www.gutenberg.org/ebooks/1252</dc:source>
 		<dc:source>https://archive.org/details/lemortedarthurs00pollgoog</dc:source>
 		<dc:source>https://archive.org/details/in.ernet.dli.2015.43769</dc:source>
-		<meta property="se:production-notes">Any special notes about the production of this ebook for future editors/producers? Remove this element if not.</meta>
+		<meta property="se:production-notes">The scans have endnotes, none of which were in the transcription; these were restored in this production.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Le_Morte_D%27Arthur</meta>
