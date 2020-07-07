@@ -37,13 +37,16 @@
 		<meta property="term" refines="#subject-2">Unknown</meta>
 		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">A late Middle Ages version of the story of King Arthur and the Knights of the Round Table.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description"> LONG_DESCRIPTION </meta>
+		<meta id="long-description" property="se:long-description" refines="#description">
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/thomas-malory"&gt;Thomas Malory&lt;/a&gt; did not invent the stories of Arthur, King of Britain, but it is fair to say that he reinvented them. Although the legend was already hundreds of years old by the fifteenth century, the contemporary stories of the British King Arthur in Malory’s day were primarily French. The French had added many of the elements familiar to modern readers, e.g. the search for the Holy Grail.&lt;/p&gt;
+			&lt;p&gt;Malory combined, edited, and added some of his own material to those French stories of his day, and in the process created a uniquely British work. &lt;i&gt;Le Morte d’Arthur&lt;/i&gt; is the source material for almost all modern retellings of King Arthur and his knights, from Hollywood movies to Nobel-prize winning writers. Malory, whose identity is still disputed, wrote the book while in prison. In doing so he gave new life to King Arthur and his Knights of the Round Table.&lt;/p&gt;
+		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/1251</dc:source>
 		<dc:source>https://www.gutenberg.org/ebooks/1252</dc:source>
 		<dc:source>https://archive.org/details/lemortedarthurs00pollgoog</dc:source>
 		<dc:source>https://archive.org/details/in.ernet.dli.2015.43769</dc:source>
-		<meta property="se:production-notes">The scans have endnotes, none of which were in the transcription; these were restored in this production.</meta>
+		<meta property="se:production-notes">The scans have endnotes, none of which were in the PG transcription; they were restored in this production, together with surrounding text.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Le_Morte_D%27Arthur</meta>
