@@ -38,8 +38,8 @@
 		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">A late Middle Ages version of the story of King Arthur and the Knights of the Round Table.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/thomas-malory"&gt;Thomas Malory&lt;/a&gt; did not invent the stories of Arthur, King of Britain, but it is fair to say that he reinvented them. Although the legend was already hundreds of years old by the fifteenth century, the contemporary stories of the British King Arthur in Malory’s day were primarily French. The French had added many of the elements familiar to modern readers, e.g. the search for the Holy Grail.&lt;/p&gt;
-			&lt;p&gt;Malory combined, edited, and added some of his own material to those French stories of his day, and in the process created a uniquely British work. &lt;i&gt;Le Morte d’Arthur&lt;/i&gt; is the source material for almost all modern retellings of King Arthur and his knights, from Hollywood movies to Nobel-prize winning writers. Malory, whose identity is still disputed, wrote the book while in prison. In doing so he gave new life to King Arthur and his Knights of the Round Table.&lt;/p&gt;
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/thomas-malory"&gt;Thomas Malory&lt;/a&gt; did not invent the stories of Arthur, King of Britain, but it is fair to say that he reinvented them. Although the legends were already hundreds of years old by the fifteenth century, the contemporary stories of Arthur in Malory’s day were primarily French. The French had added many of the elements familiar to modern readers, among them Lancelot, and the search for the Holy Grail. Malory combined, edited, and added some of his own material to the stories available to him, and in the process created a uniquely British work. (It was his printer Caxton who gave it a French name.) &lt;i&gt;Le Morte d’Arthur&lt;/i&gt; is the source material for almost all modern retellings of King Arthur and his knights, from Hollywood movies and musicals to Nobel-prize winning writers.&lt;/p&gt;
+			&lt;p&gt;Malory’s identity is still in some dispute, as there are several men of various spellings of the name to choose from. Sir Thomas Malory from Newbold Revel in Warwickshire is the most popular choice, but his life of crime—he was a rapist and serial thief at minimum—seems to be at odds with the acts of chivalry and moral code present in this book. It is known from the author’s own notes that he wrote the book while in prison; perhaps he was trying to make amends for his crimes. Regardless, the result was to give new life to King Arthur and his Knights of the Round Table.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/1251</dc:source>
@@ -56,6 +56,11 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Thomas_Malory</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n80067109</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+		<dc:contributor id="editor">A. W. Pollard</dc:contributor>
+		<meta property="file-as" refines="#editor">Pollard, A. W.</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#editor">https://en.wikipedia.org/wiki/Alfred_W._Pollard</meta>
+		<meta property="se:url.authority.nacoaf" refines="#editor">http://id.loc.gov/authorities/names/n80038473</meta>
+		<meta property="role" refines="#editor" scheme="marc:relators">ann</meta>
 		<dc:contributor id="artist">N. C. Wyeth</dc:contributor>
 		<meta property="file-as" refines="#artist">Wyeth, N. C.</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/N._C._Wyeth</meta>
