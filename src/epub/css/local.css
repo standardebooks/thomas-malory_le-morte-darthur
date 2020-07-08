@@ -15,11 +15,12 @@
 	text-align: right;
 }
 
-.bookend,
+hr ~ p,
 [epub|type~="conclusion"] p{
 	font-style: italic;
 	margin-top: 1em;
 	text-align: center;
+	text-indent: 0;
 }
 
 dd + dt{
