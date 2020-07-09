@@ -9,10 +9,13 @@
 	text-indent: 0;
 }
 
-#bibliographical-note p:last-child{
-	font-variant: small-caps;
+footer{
 	margin-top: 1em;
 	text-align: right;
+}
+
+footer p{
+	font-variant: small-caps;
 }
 
 hr ~ p,
@@ -24,5 +27,5 @@ hr ~ p,
 }
 
 dd + dt{
-	margin-top: 1.5em;
+	margin-top: 1em;
 }
