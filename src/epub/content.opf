@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/thomas-malory/le-morte-darthur</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2020-07-09T17:41:32Z</dc:date>
+		<meta property="dcterms:modified">2020-07-09T17:41:32Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -39,7 +39,7 @@
 		<dc:description id="description">A late Middle Ages version of the story of King Arthur and the Knights of the Round Table.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/thomas-malory"&gt;Thomas Malory&lt;/a&gt; did not invent the stories of Arthur, King of Britain, but it is fair to say that he reinvented them. Although the legends were already hundreds of years old by the fifteenth century, the contemporary stories of Arthur in Malory’s day were primarily French. The French had added many of the elements familiar to modern readers, among them Lancelot, and the search for the Holy Grail. Malory combined, edited, and added some of his own material to the stories available to him, and in the process created a uniquely British work. (It was his printer Caxton who gave it a French name.) &lt;i&gt;Le Morte d’Arthur&lt;/i&gt; is the source material for almost all modern retellings of King Arthur and his knights, from Hollywood movies and musicals to Nobel-prize winning writers.&lt;/p&gt;
-			&lt;p&gt;Malory’s identity is still in some dispute, as there are several men of various spellings of the name to choose from. Sir Thomas Malory from Newbold Revel in Warwickshire is the most popular choice, but his life of crime—he was a rapist and serial thief at minimum—seems to be at odds with the acts of chivalry and moral code present in this book. It is known from the author’s own notes that he wrote the book while in prison; perhaps he was trying to make amends for his crimes. Regardless, the result was to give new life to King Arthur and his Knights of the Round Table.&lt;/p&gt;
+			&lt;p&gt;Malory’s identity is still in some dispute, as there are several men of various spellings of the name to choose from. Sir Thomas Malory from Newbold Revel in Warwickshire is the most popular choice, but his life of crime—he was a rapist and serial thief at the minimum—seems to be at odds with the acts of chivalry and moral code present in this book. It is known from the author’s own notes that he wrote the book while in prison; perhaps he was trying to make amends for his crimes. Regardless, the result was to give new life to King Arthur and his Knights of the Round Table.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/1251</dc:source>
@@ -47,8 +47,8 @@
 		<dc:source>https://archive.org/details/lemortedarthurs00pollgoog</dc:source>
 		<dc:source>https://archive.org/details/in.ernet.dli.2015.43769</dc:source>
 		<meta property="se:production-notes">The scans have endnotes, none of which were in the PG transcription; they were restored in this production, together with surrounding text.</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">350191</meta>
+		<meta property="se:reading-ease.flesch">69.45</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Le_Morte_D%27Arthur</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/thomas-malory_le-morte-darthur</meta>
 		<dc:creator id="author">Thomas Malory</dc:creator>
@@ -81,6 +81,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
