@@ -46,7 +46,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/1252</dc:source>
 		<dc:source>https://archive.org/details/lemortedarthurs00pollgoog</dc:source>
 		<dc:source>https://archive.org/details/in.ernet.dli.2015.43769</dc:source>
-		<meta property="se:production-notes">The scans have endnotes, none of which were in the PG transcription; they were restored in this production, together with surrounding text.</meta>
+		<meta property="se:production-notes">The scans have endnotes, none of which were in the PG transcription; they were restored in this production, together with surrounding text. `se modernize-spelling` was not run on the text because of the old-English prose style with words dating back to the 15th century.</meta>
 		<meta property="se:word-count">350191</meta>
 		<meta property="se:reading-ease.flesch">69.45</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Le_Morte_D%27Arthur</meta>
