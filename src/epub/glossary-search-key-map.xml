@@ -143,6 +143,9 @@
 	<search-key-group href="text/glossary.xhtml#bawdy">
 		<match value="bawdy"/>
 	</search-key-group>
+	<search-key-group href="text/glossary.xhtml#beams">
+		<match value="beams"/>
+	</search-key-group>
 	<search-key-group href="text/glossary.xhtml#become">
 		<match value="become"/>
 	</search-key-group>
@@ -454,6 +457,9 @@
 	<search-key-group href="text/glossary.xhtml#enow">
 		<match value="enow"/>
 	</search-key-group>
+	<search-key-group href="text/glossary.xhtml#enprised">
+		<match value="enprised"/>
+	</search-key-group>
 	<search-key-group href="text/glossary.xhtml#enquest">
 		<match value="enquest"/>
 	</search-key-group>
@@ -475,6 +481,9 @@
 		<match value="even hand">
 			<value value="even hands"/>
 		</match>
+	</search-key-group>
+	<search-key-group href="text/glossary.xhtml#evenlong">
+		<match value="evenlong"/>
 	</search-key-group>
 	<search-key-group href="text/glossary.xhtml#everych">
 		<match value="everych"/>
