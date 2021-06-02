@@ -92,7 +92,7 @@
 		<match value="at-after"/>
 	</search-key-group>
 	<search-key-group href="text/glossary.xhtml#avail-at">
-		<match value="avail (at)"/>
+		<match value="at avail"/>
 	</search-key-group>
 	<search-key-group href="text/glossary.xhtml#avaunt">
 		<match value="avaunt">
@@ -316,7 +316,7 @@
 		</match>
 	</search-key-group>
 	<search-key-group href="text/glossary.xhtml#danger-in">
-		<match value="danger (in)"/>
+		<match value="in danger"/>
 	</search-key-group>
 	<search-key-group href="text/glossary.xhtml#deadly">
 		<match value="deadly"/>
@@ -342,7 +342,7 @@
 		</match>
 	</search-key-group>
 	<search-key-group href="text/glossary.xhtml#degree-win-the">
-		<match value="degree (win the)"/>
+		<match value="win the degree"/>
 	</search-key-group>
 	<search-key-group href="text/glossary.xhtml#departed">
 		<match value="departed"/>
@@ -373,9 +373,7 @@
 		</match>
 	</search-key-group>
 	<search-key-group href="text/glossary.xhtml#disherit">
-		<match value="disherit">
-			<value value="disinherit"/>
-		</match>
+		<match value="disherit"/>
 	</search-key-group>
 	<search-key-group href="text/glossary.xhtml#disperpled">
 		<match value="disperpled"/>
@@ -536,7 +534,7 @@
 		<match value="for-bled"/>
 	</search-key-group>
 	<search-key-group href="text/glossary.xhtml#force-no">
-		<match value="force (no)"/>
+		<match value="no force"/>
 	</search-key-group>
 	<search-key-group href="text/glossary.xhtml#fordo">
 		<match value="fordo"/>
@@ -622,7 +620,7 @@
 		</match>
 	</search-key-group>
 	<search-key-group href="text/glossary.xhtml#high-on">
-		<match value="high (on)"/>
+		<match value="on high"/>
 	</search-key-group>
 	<search-key-group href="text/glossary.xhtml#hight">
 		<match value="hight"/>
@@ -910,10 +908,14 @@
 		<match value="quit"/>
 	</search-key-group>
 	<search-key-group href="text/glossary.xhtml#raced-rased">
-		<match value="raced (rased)"/>
+		<match value="raced">
+			<value value="rased"/>
+		</match>
 	</search-key-group>
 	<search-key-group href="text/glossary.xhtml#rack-of-bulls">
-		<match value="rack (of bulls)"/>
+		<match value="rack">
+			<value value="rack of bulls"/>
+		</match>
 	</search-key-group>
 	<search-key-group href="text/glossary.xhtml#range">
 		<match value="range"/>
