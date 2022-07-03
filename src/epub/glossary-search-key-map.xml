@@ -258,7 +258,7 @@
 	<search-key-group href="text/glossary.xhtml#champaign">
 		<match value="champaign"/>
 	</search-key-group>
-	<search-key-group href="text/glossary.xhtml#chariot">
+	<search-key-group href="text/glossary.xhtml#chariot-fr-charette">
 		<match value="chariot"/>
 	</search-key-group>
 	<search-key-group href="text/glossary.xhtml#cheer">
@@ -829,7 +829,7 @@
 	<search-key-group href="text/glossary.xhtml#or">
 		<match value="or"/>
 	</search-key-group>
-	<search-key-group href="text/glossary.xhtml#orgulité">
+	<search-key-group href="text/glossary.xhtml#orgulite">
 		<match value="orgulité"/>
 	</search-key-group>
 	<search-key-group href="text/glossary.xhtml#orgulous">
