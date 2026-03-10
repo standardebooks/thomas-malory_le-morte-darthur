@@ -2,6 +2,19 @@
 <se-lint-ignore>
 	<file path="glossary.xhtml">
 		<ignore code="t-057">
+			<line>70</line>
+			<line>262</line>
+			<line>328</line>
+			<line>424</line>
+			<line>862</line>
+			<line>868</line>
+			<line>1180</line>
+			<line>1181</line>
+			<line>1520</line>
+			<line>1521</line>
+			<line>2205</line>
+			<line>2229</line>
+			<line>2230</line>
 			<reason>Matched text is typically lowercased in glossaries and dictionaries.</reason>
 		</ignore>
 	</file>
