@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/thomas-malory/le-morte-darthur</dc:identifier>
 		<dc:date>2020-07-09T17:41:32Z</dc:date>
 		<meta property="dcterms:modified">2020-07-09T17:41:32Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -35,7 +36,7 @@
 		<meta property="term" refines="#subject-1">sh85008144</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">Unknown</meta>
-		<meta property="se:subject">Fiction</meta>
+		<meta property="schema:genre">Fiction</meta>
 		<dc:description id="description">A late Middle Ages version of the story of King Arthur and the Knights of the Round Table.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/thomas-malory"&gt;Thomas Malory&lt;/a&gt; did not invent the stories of Arthur, King of Britain, but it is fair to say that he reinvented them. Although the legends were already hundreds of years old by the fifteenth century, the contemporary stories of Arthur in Malory’s day were primarily French. The French had added many of the elements familiar to modern readers, among them Lancelot, and the search for the Holy Grail. Malory combined, edited, and added some of his own material to the stories available to him, and in the process created a uniquely British work. (It was his printer Caxton who gave it a French name.) &lt;i&gt;Le Morte d’Arthur&lt;/i&gt; is the source material for almost all modern retellings of King Arthur and his knights, from Hollywood movies and musicals to Nobel-prize winning writers.&lt;/p&gt;
@@ -46,42 +47,43 @@
 		<dc:source>https://www.gutenberg.org/ebooks/1252</dc:source>
 		<dc:source>https://archive.org/details/lemortedarthurs00pollgoog</dc:source>
 		<dc:source>https://archive.org/details/in.ernet.dli.2015.43769</dc:source>
-		<meta property="se:production-notes">The scans have endnotes, none of which were in the PG transcription; they were restored in this production, together with surrounding text. `se modernize-spelling` was not run on the text because of the old-English prose style with words dating back to the 15th century.</meta>
-		<meta property="se:word-count">348489</meta>
-		<meta property="se:reading-ease.flesch">69.25</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Le_Morte_D%27Arthur</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/thomas-malory_le-morte-darthur</meta>
+		<meta property="schema:wordCount">348489</meta>
+		<meta property="schema:educationalLevel">69.25</meta>
+		<link href="https://en.wikipedia.org/wiki/Le_Morte_D%27Arthur" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/thomas-malory_le-morte-darthur" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Thomas Malory</dc:creator>
 		<meta property="file-as" refines="#author">Malory, Thomas</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Thomas_Malory</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n80067109</meta>
+		<link href="https://en.wikipedia.org/wiki/Thomas_Malory" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n80067109.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="editor">A. W. Pollard</dc:contributor>
 		<meta property="file-as" refines="#editor">Pollard, A. W.</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#editor">https://en.wikipedia.org/wiki/Alfred_W._Pollard</meta>
-		<meta property="se:url.authority.nacoaf" refines="#editor">http://id.loc.gov/authorities/names/n80038473</meta>
+		<link href="https://en.wikipedia.org/wiki/Alfred_W._Pollard" refines="#editor" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n80038473.html" refines="#editor" rel="schema:sameAs"/>
 		<meta property="role" refines="#editor" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#editor" scheme="marc:relators">wfw</meta>
 		<dc:contributor id="writer-of-preface">William Caxton</dc:contributor>
 		<meta property="file-as" refines="#writer-of-preface">Caxton, William</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#writer-of-preface">https://en.wikipedia.org/wiki/William_Caxton</meta>
-		<meta property="se:url.authority.nacoaf" refines="#writer-of-preface">http://id.loc.gov/authorities/names/n79007370</meta>
+		<link href="https://en.wikipedia.org/wiki/William_Caxton" refines="#writer-of-preface" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79007370.html" refines="#writer-of-preface" rel="schema:sameAs"/>
 		<meta property="role" refines="#writer-of-preface" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="artist">N. C. Wyeth</dc:contributor>
 		<meta property="file-as" refines="#artist">Wyeth, N. C.</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/N._C._Wyeth</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79054878</meta>
+		<link href="https://en.wikipedia.org/wiki/N._C._Wyeth" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79054878.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Mike Lough</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Lough, Mike</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">David Widger</dc:contributor>
 		<meta property="file-as" refines="#transcriber-2">Widger, David</meta>
-		<meta property="se:url.authority.nacoaf" refines="#transcriber-2">http://id.loc.gov/authorities/names/no2011017869</meta>
+		<link href="https://id.loc.gov/authorities/names/no2011017869.html" refines="#transcriber-2" rel="schema:sameAs"/>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Vince Rice</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Rice, Vince</meta>
-		<meta property="se:url.homepage" refines="#producer-1">https://www.brokenandsaved.com/</meta>
+		<link href="https://www.brokenandsaved.com/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -90,7 +92,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com/</meta>
+		<link href="https://alexcabal.com/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>

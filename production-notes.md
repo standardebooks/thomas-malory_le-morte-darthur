@@ -1,0 +1,1 @@
+The scans have endnotes, none of which were in the PG transcription; they were restored in this production, together with surrounding text. `se modernize-spelling` was not run on the text because of the old-English prose style with words dating back to the 15th century.
